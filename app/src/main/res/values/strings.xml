@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Пора в путешествие</string>
+    <string name="details_title">Данные по перелету</string>
+    <string name="error_data"><![CDATA[Получить данные не удалось :(]]></string>
+    <string name="like_state">Этот перелёт в избранных</string>
+    <string name="price">Цена</string>
+    <string name="departure">Отправление</string>
+    <string name="departure_details">Город отправления\nВремя отправления</string>
+    <string name="arrival">Прибытие</string>
+    <string name="arrival_details">Город прибытия\nВремя прибытия</string>
+    <string name="details_air_travel">Детали перелёта</string>
+    <string name="push_on_like">Поставить лайк</string>
+    <string name="departure_airport">LED - Saint Petersburg, Russia</string>
+    <string name="arrival_date">Thu, 18 Nov</string>
+    <string name="arrival_airport">MOW - Moscow, Russia</string>
+    <string name="departure_date">Mon, 15 Nov</string>
+    <string name="error_button_text">Попробовать снова</string>
+    <string name="back_on_list">К списку</string>
+</resources>

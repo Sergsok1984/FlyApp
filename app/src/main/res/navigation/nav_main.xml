@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/listOfFlightsFragment">
+
+    <fragment
+        android:id="@+id/listOfFlightsFragment"
+        android:name="ru.sokolov.flyapp.ui.ListOfFlightsFragment"
+        android:label="list_of_flights_fragment"
+        tools:layout="@layout/list_of_flights_fragment">
+        <action
+            android:id="@+id/action_listOfFlightsFragment_to_airTravelDetails3"
+            app:destination="@id/airTravelDetails"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/airTravelDetails"
+        android:name="ru.sokolov.flyapp.ui.AirTravelDetails"
+        android:label="AirTravelDetails">
+        <action
+            android:id="@+id/action_airTravelDetails_to_listOfFlightsFragment"
+            app:destination="@id/listOfFlightsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+</navigation>
